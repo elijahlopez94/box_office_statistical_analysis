@@ -29,9 +29,9 @@ Data from The Numbers was first matched by title or alternate title and assigned
     * Budget levels defined as:
         * Low: < $5M
         * Medium: $5-50M
-        * High: > $50M.
+        * High: > $50M
 3. Revenue by Release Month
-    * Revenue was the higher of Domestic Gross and Worldwide Gross with movies generating $0 in revenue were excluded.
+    * Revenue was the higher of Domestic Gross and Worldwide Gross with movies generating $0 in revenue excluded.
 
 After completing descriptive statistics for each these areas of focus, an Analysis of Variance (ANOVA) test with alpha = 0.05 was conducted to determine if there was a statistical difference between categories. Finally, a post-hoc Tukey's Honest Significant Difference (HSD) test with alpha = 0.05 was performed to investigate which categories were causing the significant result observed in the ANOVA test.
 
@@ -45,9 +45,9 @@ After completing descriptive statistics for each these areas of focus, an Analys
 * There are 19 unique genres with average ratings between 5.5 and 7.1 out of 10.
 * Documentaries, biographies, and historical movies had highest average ratings.
 * Statistical Analysis using an alpha = 0.05 shows that:
-    * Documentaries (7.1/10) were rated higher than 10 other genres at a significant level
-    * Biographies (7.0/10) were rated higher than 9 other genres at a significant level
-    * Historical movies (7.0/10) were rated higher than 4 other genres at a significant level
+    * Documentaries (7.1/10) were rated higher than 9 other genres at a significant level.
+    * Biographies (7.0/10) were rated higher than 10 other genres at a significant level.
+    * Historical movies (6.8/10) were rated higher than 4 other genres at a significant level.
 
 
 ### ROI by Budget
@@ -57,22 +57,22 @@ After completing descriptive statistics for each these areas of focus, an Analys
     * Low: < $5M
     * Medium: $5-50M
     * High: > $50M
-* ROI by Budget
-    * Low: $12.6M
-    * Medium: $306.2M
-    * High: $525.2M 
-* ROI is higher for higher budget films
-* Statistical Analysis using an alpha = 0.05 shows that the difference in ROI is significant across all budget levels
+* ROI by Budget:
+    * Low: 12.6%
+    * Medium: 306.2%
+    * High: 525.2%
+* ROI is higher for higher budget films.
+* Statistical Analysis using an alpha = 0.05 shows that the difference in ROI is significant across all budget levels.
 
 
 ### Revenue by Release Month
 ![alt text](images\rec3.png)
-* Across all months May, June, and November recorded the highest gross revenue
+* Across all months May, June, and November recorded the highest gross revenue.
 * Statistical Analysis using an alpha = 0.05 shows that the difference in revenue is significant between each of these months and September and October but they are not statistically different from each other or the other calendar months.
 
 
 ## Conclusions
-This analysis leads to three recommendations.
+This analysis leads to three recommendations:
 
 1. Create a historical movie, a biography, or a documentary. This will likely receive the highest ratings and build credibility with the target audience.
 
@@ -88,7 +88,7 @@ This analysis leads to three recommendations.
 
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](box_office_statistical_analysis.ipynb) or review this [presentation](https://docs.google.com/presentation/d/1ifef1BkZikxRSQKQzS0ZgQe31FlO3s7aLYEzw0WZeGE/edit#slide=id.p).
+See the full analysis in the [Jupyter Notebook](box_office_statistical_analysis_notebook.ipynb) or review this [presentation](https://docs.google.com/presentation/d/1ifef1BkZikxRSQKQzS0ZgQe31FlO3s7aLYEzw0WZeGE/edit#slide=id.p).
 
 For additional info, contact the author at:
 
