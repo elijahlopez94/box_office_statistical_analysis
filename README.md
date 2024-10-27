@@ -1,4 +1,4 @@
-![alt text](images\box_office_banner.jpg)
+![alt text](images/box_office_banner.jpg)
 # Box Office Statistical Analysis
 Author: Elijah Lopez
 
@@ -16,8 +16,8 @@ Emerging movie studios are inundated with choices regarding how to grow credibil
 ## Data
 This data comes from [Internet Movie Database](https://www.imdb.com/) (IMDb) and [The Numbers](https://thenumbers.com/).
 
-* The [data](data\im.db) from IMDb was stored in a SQLite database which includes movie  ID, title (including alternate titles), genre, and average rating, among other things. Initially there were 146,144 movies with 331,703 alternate titles. Only 73,856 of which had average ratings figures.
-* [Data](data\tn.movie_budgets.csv) from The Numbers includes movie titles, release date, production budget, and domestic/worldwide gross sales. There were 5,782 movies listed.
+* The [data](data/im.db) from IMDb was stored in a SQLite database which includes movie  ID, title (including alternate titles), genre, and average rating, among other things. Initially there were 146,144 movies with 331,703 alternate titles. Only 73,856 of which had average ratings figures.
+* [Data](data/tn.movie_budgets.csv) from The Numbers includes movie titles, release date, production budget, and domestic/worldwide gross sales. There were 5,782 movies listed.
 
 
 ## Methods
@@ -40,7 +40,7 @@ After completing descriptive statistics for each these areas of focus, an Analys
 
 
 ### Ratings by Genre
-![alt text](images\rec1.png)
+![alt text](images/rec1.png)
 
 * There are 19 unique genres with average ratings between 5.5 and 7.1 out of 10.
 * Documentaries, biographies, and historical movies had highest average ratings.
@@ -51,7 +51,7 @@ After completing descriptive statistics for each these areas of focus, an Analys
 
 
 ### ROI by Budget
-![alt text](images\rec2.png)
+![alt text](images/rec2.png)
 
 * Budget Levels broken into:
     * Low: < $5M
@@ -66,7 +66,7 @@ After completing descriptive statistics for each these areas of focus, an Analys
 
 
 ### Revenue by Release Month
-![alt text](images\rec3.png)
+![alt text](images/rec3.png)
 * Across all months May, June, and November recorded the highest gross revenue.
 * Statistical Analysis using an alpha = 0.05 shows that the difference in revenue is significant between each of these months and September and October but they are not statistically different from each other or the other calendar months.
 
