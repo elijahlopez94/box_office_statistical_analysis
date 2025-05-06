@@ -88,7 +88,7 @@ This analysis leads to three recommendations:
 
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](box_office_statistical_analysis_notebook.ipynb) or review this [presentation](https://docs.google.com/presentation/d/1ifef1BkZikxRSQKQzS0ZgQe31FlO3s7aLYEzw0WZeGE/edit#slide=id.p).
+See the full analysis in the [Jupyter Notebook](box_office_statistical_analysis_notebook.ipynb) or review this [presentation](https://docs.google.com/presentation/d/1ifef1BkZikxRSQKQzS0ZgQe31FlO3s7aLYEzw0WZeGE/edit#slide=id.p). All visuals can also be viewed on [Tableau](https://public.tableau.com/views/MoviePerformance_17461283310610/MoviePerformance?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 For additional info, contact the author at:
 
